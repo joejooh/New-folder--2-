@@ -1,0 +1,98 @@
+body{
+    background-color :ghostwhite; 
+    display:flex ;
+    
+    
+    padding-left: 20px;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    
+    
+}
+#ruu{
+    position: absolute;
+     left: 2px;
+     bottom: 1px;
+     color: white;
+    
+}
+#pix{
+    background-color: rgba(74, 70, 70, 0.64);
+    position: absolute;
+    left: 1px;
+    width: 45%;
+    margin-top: 220px;
+    align-items: center;
+    
+    
+    
+    
+}
+
+#od{
+    width: 100px;
+    float: left;
+    align-self: center;
+    padding-left: 90px;
+    
+}
+#inn{
+    font-size: 60px;
+    color: white;
+    font-family: monospace;
+
+}
+#leaf{
+    width: 1500px;
+    height: 743px;
+}
+
+#speech{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: x-large;
+
+}
+#fud{
+    background-color: rgba(135, 207, 235, 0.096); 
+    padding-left: 40px;  
+    padding-top: 20px;
+    padding-right: 10px;
+    height: 400px;
+    width: 100%;
+    
+
+    
+    
+    
+}
+button{
+    background-color: #596D48;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-left: 40px;
+    font-size: large;
+}
+p{
+    padding-left: 40px;
+    font-size:x-large;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-color:#E5E7EB;
+    border-radius: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
