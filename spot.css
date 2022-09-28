@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.word{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.word h1{
+    color: #ffffff;
+    font-family: 'mulish';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.word p{
+    font-family: 'mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+.pick{
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+button{
+    width: 110px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 2px;
+    font-family: 'mulish';
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+
+/* menu for sushi */
+   
+
+.nave{
+    height: 100vh;
+    width: 130px;
+    margin-left:50px ;
+    margin-right: 40px;
+    background-color: black;
+    border-radius:17px;
+    padding: 30px; 
+    padding-top: 20px;
+    
+    line-height: 95px;
+    position: relative;
+    float: left;
+    
+    
+      
+}
+.nave img{
+    width: 50px;
+    height: auto;
+    
+}
+#spoon{
+    background-color: #F1D5BB;
+    
+}
+.head{
+    
+    text-decoration: underline #F1D5BB;
+    font-size: 17px;
+    padding: 15px;
+    padding-left: 10px;
+    
+    
+}
+
+.wrapper {
+
+
+    display: grid;
+    grid-template-columns:245px 245px 245px 245px;
+    grid-gap: 10px;
+    
+  }
+  
+  .box {
+    
+    color: #444;
+    border-radius: 5px;
+
+    
+    font-size: 120%;
+    
+  }
+  .box img{
+    width: 200px;
+    height: 200px;
+  }
+  .box p{
+    text-align: center;
+    padding-right: 30px;
+  }
+
+  /* cart part*/
+
+  .boxed{
+    width: 650px;
+    height: 500px;
+    background-color: #F1D5BB;
+    position: relative;
+    float: left;
+    
+    
+    
+    
+    
+
+  }
+ .fix{
+ line-height: 30px;
+ 
+ }
+
+.fix img{
+
+    width: 115px;
+    height: 90px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    
+    
+
+
+}
+.fix p{
+    position: relative;
+    float: right ;
+    right: 400px;
+    font-size: 20px;
+    font-family:  'mullish';
+    padding:10px;
+    
+    margin-top: 20px;
+    font-weight: bold;
+    
+    
+}
+.fix h4{
+    position: relative;
+    float: right;
+    right: 100px;
+    font-size: 20px;
+    margin-top:40px ;
+
+
+}
+.fix span{
+    width: 50px;
+    height:10px;
+    padding: 10px;
+ 
+    text-align: center;
+    
+    background-color: #ffffff;
+}
+.fix h1{
+ position: relative;
+    float: right;
+    left: 70px;
+
+    
+    font-size: 25px;
+    margin-top:40px ;
+    margin-left: 20px;
+
+    color: gray;
+
+
+}
+.ricks{
+
+width: 400px;
+height: 500px;
+display: block;
+position: relative;
+float: left;
+
+margin-left: 30px;
+
+}
+
+.subs{
+
+ width: 350px;
+ height: 250px;
+ background-color: #F1D5BB;
+ 
+ 
+
+
+}
+.subs h1, h2{
+
+    font-size: 30px;
+    padding-left:30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.subs button{
+
+    background-color: black;
+    color : white;
+    width: 280px;
+    align-self: center;
+    font-size: 19px;
+
+}
+
+.subs2{
+
+width: 350px;
+height: 250px;
+border-color: #F1D5BB;
+padding-left: 10px;
+
+
+}
+.subs2 input {
+width: 300px;
+height: 70px;
+padding-left: 30;
+font-size: 30px;
+margin: 30px 0;
+border-color: #F1D5BB;
+    
+
+}
+.subs2 button{
+    background-color: black;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+
+
